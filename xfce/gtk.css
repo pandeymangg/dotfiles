@@ -1,0 +1,89 @@
+:root {
+  --text: #11111b;
+}
+
+.xfce4-panel button,
+.genmon_plugin,
+#docklike-plugin .group {
+  transition: 0.2s;
+  border-radius: 3;
+  margin: 5;
+  /* background-color: rgba(245, 194, 231, 0.3); */
+  background-color: rgba(24, 24, 37, 0.4);
+}
+
+.xfce4-panel.background .tasklist button {
+  font-size: 16px;
+}
+
+.xfce4-panel widget grid button.flat.toggle {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.xfce4-panel widget grid button.flat.toggle:checked {
+  border-radius: 0;
+  border-bottom: 4px solid #dd7878;
+}
+
+.xfce4-panel.background button:active,
+.xfce4-panel.background button:hover,
+.xfce4-panel.background button:active:hover,
+.xfce4-panel.background .tasklist button:active,
+.xfce4-panel.background .tasklist button:active:hover,
+#docklike-plugin .hover_group {
+  background-color: rgba(245, 194, 231, 0.5);
+}
+
+.xfce4-panel button:checked {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.genmon_plugin {
+  padding: 5px;
+}
+.genmon_plugin image {
+  margin-left: 5px;
+}
+.genmon_plugin label {
+  padding: 5px;
+}
+
+#pulseaudio-button {
+  background-color: rgba(250, 179, 135, 1);
+  color: #11111b;
+}
+
+#pulseaudio-button * {
+  -gtk-icon-transform: scale(0.8);
+}
+
+#xfce4-power-manager-plugin {
+  background-color: #94e2d5;
+  padding-right: 8px;
+  padding-left: 4px;
+  color: #11111b;
+}
+
+#xfce4-power-manager-plugin image {
+  -gtk-icon-transform: scale(0.75);
+  margin-right: 2px;
+}
+
+#xfce4-notification-plugin {
+  background-color: #f38ba8;
+  color: #11111b;
+}
+
+#xfce4-notification-plugin * {
+  -gtk-icon-transform: scale(0.6);
+}
+
+#clock-button {
+  background-color: #a6e3a1;
+  color: #11111b;
+}
+
+#clock-button * {
+  padding: 4px;
+}
